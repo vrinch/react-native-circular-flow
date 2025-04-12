@@ -1,0 +1,16 @@
+# Ignore documentation and example folders
+assets/
+examples/
+
+# Ignore source TypeScript files (only include compiled JS and type definitions)
+*.ts
+!*.d.ts
+
+# Ignore node_modules
+node_modules/
+
+# Ignore configuration files
+tsconfig.json
+
+# Ignore logs and temporary files
+*.log
